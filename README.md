@@ -1,9 +1,30 @@
-Digital Logic Sim — Apple Silicon macOS Build
+# Digital Logic Sim — Apple Silicon macOS Build
 
-This is a compiled Apple Silicon version of Sebastian Lague's Digital Logic Sim, built from the original project for Apple Silicon Macs.
+An unofficial Apple Silicon/ARM64 macOS build of Sebastian Lague's
+Digital Logic Sim.
 
-No changes have been made to the project itself; this release is simply a macOS Apple Silicon/ARM64 build intended for Macs where the original build does not run correctly.
+## The Aspect Fix version
 
-Original project: Sebastian Lague — Digital Logic Sim
+The aspect fix changes the default UI aspect ratio from 16:9 to 16:10,
+making fullscreen display correctly on 16:10 Macs.
+for example:
+MacBook Air 13" (M1, 2020): exactly 2560×1600
+MacBook Pro 13" (M1, 2020): exactly 2560×1600
+MacBook Pro 13" (M2, 2022): exactly 2560×1600
+MacBook Neo 13" (A18 Pro, 2026): 2408×1506
 
-This is an unofficial community build and is not an official Apple Silicon release by the original author.
+But most other Apple Silicon Macs have weird aspect ratios (which are caused by the notch).
+this might be fixed later but this version might look better or worse depending on the Mac
+
+## Original Project
+
+This project is based on:
+
+https://github.com/SebLague/Digital-Logic-Sim
+
+This is an unofficial community build and is not affiliated with
+or endorsed by Sebastian Lague.
+
+## License
+
+See the original project's license for licensing information.
