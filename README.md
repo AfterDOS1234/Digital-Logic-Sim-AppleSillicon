@@ -7,11 +7,11 @@ Digital Logic Sim.
 
 The aspect fix changes the default UI aspect ratio from 16:9 to 16:10,
 making fullscreen display correctly on 16:10 Macs.
-for example:
-MacBook Air 13" (M1, 2020): exactly 2560×1600
-MacBook Pro 13" (M1, 2020): exactly 2560×1600
-MacBook Pro 13" (M2, 2022): exactly 2560×1600
-MacBook Neo 13" (A18 Pro, 2026): 2408×1506
+### for example:
+- MacBook Air 13" (M1, 2020): exactly 2560×1600
+- MacBook Pro 13" (M1, 2020): exactly 2560×1600
+- MacBook Pro 13" (M2, 2022): exactly 2560×1600
+- MacBook Neo 13" (A18 Pro, 2026): 2408×1506
 
 But most other Apple Silicon Macs have weird aspect ratios (which are caused by the notch).
 this might be fixed later but this version might look better or worse depending on the Mac
